@@ -25,6 +25,10 @@ public class PessoaController {
         return repository.findAll().stream().map(DadosListarPessoas::new).toList();
     }
 
+    public void detalhar(){
+        
+    }
+
     @PutMapping
     @Transactional
     public void atualizar(@RequestBody @Valid DadosAtualizaPessoas dados){
