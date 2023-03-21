@@ -26,7 +26,7 @@ public class PessoaController {
     }
 
     public void detalhar(){
-        
+
     }
 
     @PutMapping
